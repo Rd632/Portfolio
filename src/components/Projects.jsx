@@ -22,6 +22,18 @@ const allProjects = [
       live: 'https://email-builder.vercel.app',
     },
     {
+      title: ' NextJS WeatherApp',
+      description: 'A Next.js + Tailwind app with city search, filtering, and infinite scroll, integrated with OpenWeatherMap API to show real-time weather, maps, and dynamic backgrounds.',
+      image: '/images/WeatherApp.png',
+      images: [
+        '/images/WeatherApp.png'
+      ],
+      category: 'Frontend',
+      skills: ['NextJS', 'TailwindCSS', 'OpenWeatherMap API', 'MobX State Tree', 'Leaflet.js'],
+      github: 'https://github.com/Rd632/WeatherApp',
+      live: 'https://weatherapp-weld-one.vercel.app/'
+    },
+    {
       title: ' NextJS Dashboard',
       description: 'This project is an HR dashboard built entirely as a client-side frontend application using Next.js. It focuses on beautiful UI & responsive user interface.',
       image: '/images/Dashboard.png',
